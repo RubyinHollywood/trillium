@@ -8,11 +8,28 @@
 </style>
 <g>
 	<g>
+		<circle class="st0" cx="311.9" cy="236.1" r="11.7"/>
+		<circle class="st0" cx="244.2" cy="224.4" r="11.7"/>
+		<circle class="st0" cx="256" cy="287.2" r="11.7"/>
+		<circle class="st0" cx="286.8" cy="168.8" r="11.7"/>
+		<circle class="st0" cx="220.8" cy="310.6" r="11.7"/>
+		<circle class="st0" cx="256" cy="329.7" r="11.7"/>
+		<circle class="st0" cx="300.2" cy="267.7" r="11.7"/>
+		<circle class="st0" cx="170.6" cy="173.2" r="11.7"/>
+		<circle class="st0" cx="194" cy="200.6" r="11.7"/>
+		<circle class="st0" cx="344" cy="194" r="11.7"/>
+		<circle class="st0" cx="232.5" cy="168.8" r="11.7"/>
+		<circle class="st0" cx="147.2" cy="212.7" r="11.7"/>
+		<circle class="st0" cx="201.5" cy="267.7" r="11.7"/>
+		<circle class="st0" cx="267.7" cy="256" r="11.7"/>
+		<circle class="st0" cx="332.3" cy="161.5" r="11.7"/>
+		<circle class="st0" cx="286.8" cy="212.7" r="11.7"/>
+		<circle class="st0" cx="194" cy="236.1" r="11.7"/>
+		<circle class="st0" cx="232.5" cy="267.7" r="11.7"/>
+		<circle class="st0" cx="147.2" cy="182.3" r="11.7"/>
 		<g>
-			<polygon class="st0" points="333.3,147.5 376,190.2 248,360.9 120,190.2 162.7,147.5 			"/>
-		</g>
-		<g>
-			<rect x="120" y="184.9" class="st1" width="256" height="10.7"/>
+			<path class="st1" d="M248,369.8L113,189.7l47.5-47.5h175.1l47.5,47.5L248,369.8z M127,190.7L248,352l121-161.3l-37.8-37.8H164.9
+				L127,190.7z"/>
 		</g>
 		<g>
 			
@@ -39,8 +56,7 @@
 				<rect x="181.4" y="270.2" transform="matrix(0.2423 -0.9702 0.9702 0.2423 -63.2348 470.0597)" class="st1" width="175.9" height="10.7"/>
 		</g>
 		<g>
-			<path class="st1" d="M248,369.8L113,189.7l47.5-47.5h175.1l47.5,47.5L248,369.8z M127,190.7L248,352l121-161.3l-37.8-37.8H164.9
-				L127,190.7z"/>
+			<rect x="120" y="184.9" class="st1" width="256" height="10.7"/>
 		</g>
 	</g>
 </g>
