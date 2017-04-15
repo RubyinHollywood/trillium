@@ -1,68 +1,44 @@
 <div class="row">
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/yellow_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/purp_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/green_full_ruby.svg" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/yellow_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/purp_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/green_full_ruby.svg" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/yellow_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/purp_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/green_full_ruby.svg" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/yellow_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/purp_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
-      </svg>
+      <img src="/images/green_full_ruby.svg" />
     </div>
 </div>
