@@ -2,7 +2,74 @@
   <h2><%= gettext "Welcome to %{name}!", name: "Phoenix" %></h2>
   <p class="lead">A productive web framework that<br />does not compromise speed and maintainability.</p>
 </div>
-
+<div class="row">
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+    <div class="col-lg-4">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <rect width="200" height="150" stroke="black" fill="transparent" stroke-width="5"/>
+      </svg>
+    </div>
+</div>
 <div class="row marketing">
   <div class="col-lg-6">
     <h4>Resources</h4>
