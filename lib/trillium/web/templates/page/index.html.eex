@@ -1,20 +1,9 @@
 <div class="row">
     <div class="col-lg-4">
-      <img src="/images/yellow_full_ruby.svg" />
+      <img src="/images/green_dotted_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <img src="/images/purp_full_ruby.svg" />
-    </div>
-    <div class="col-lg-4">
-      <img src="/images/green_full_ruby.svg" />
-    </div>
-</div>
-<div class="row">
-    <div class="col-lg-4">
-      <img src="/images/yellow_full_ruby.svg" />
-    </div>
-    <div class="col-lg-4">
-      <img src="/images/purp_full_ruby.svg" />
+      <img src="/images/green_empty_ruby.svg" />
     </div>
     <div class="col-lg-4">
       <img src="/images/green_full_ruby.svg" />
@@ -25,20 +14,20 @@
       <img src="/images/yellow_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <img src="/images/purp_full_ruby.svg" />
+      <img src="/images/yellow_empty_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <img src="/images/green_full_ruby.svg" />
+      <img src="/images/yellow_dotted_ruby.svg" />
     </div>
 </div>
 <div class="row">
     <div class="col-lg-4">
-      <img src="/images/yellow_full_ruby.svg" />
+      <img src="/images/purp_dotted_ruby.svg" />
     </div>
     <div class="col-lg-4">
       <img src="/images/purp_full_ruby.svg" />
     </div>
     <div class="col-lg-4">
-      <img src="/images/green_full_ruby.svg" />
+      <img src="/images/purp_empty_ruby.svg" />
     </div>
 </div>
