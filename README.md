@@ -1,5 +1,8 @@
 # Trillium
 
+## Set combinations in the Online Encyclopedia of Integer Sequences
+[OEIS](https://oeis.org/A090245)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
