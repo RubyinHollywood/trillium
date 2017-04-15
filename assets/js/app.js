@@ -18,4 +18,17 @@ import "phoenix_html"
 // Local files can be imported directly using relative
 // paths "./socket" or full ones "web/static/js/socket".
 
-// import socket from "./socket"
+import socket from "./socket"
+
+let socket = new Socket("/socket")
+socket.connect()
+let chan = socket.channel("articles:lobby", {})
+
+let broadcastContainer = $("#broadcast")
+
+chan.on("broadcast", payload => {
+  let broadcast = :erlang.term_to_binary(payload.body)
+
+  reviewsContainer.append(`
+    <div> ${broadcast.message} </div>`)
+})
