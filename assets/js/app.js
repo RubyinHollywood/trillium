@@ -23,7 +23,7 @@ import socket from "./socket"
 socket.connect()
 let chan = socket.channel("game:lobby", {})
 
-let broadcastContainer = document.getElementById("#broadcast")
+let broadcastContainer = document.getElementById("broadcast")
 
 chan.on("shout", payload => {
   let broadcast = JSON.parse(payload.body)
