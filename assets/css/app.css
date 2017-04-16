@@ -1,5 +1,5 @@
 /* This file is for your main application css. */
 
-.card {
-  background-color: #f1f1f1;
+.card:hover {
+    background-color: #f1f1f1;
 }
