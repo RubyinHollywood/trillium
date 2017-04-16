@@ -1,4 +1,4 @@
-defmodule Trillium.Web.GameChannel do
+defmodule Trillium.GameChannel do
   use Trillium.Web, :channel
 
   def join("game:lobby", payload, socket) do
