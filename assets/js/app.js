@@ -28,6 +28,5 @@ let broadcastContainer = document.getElementById("broadcast")
 chan.on("shout", payload => {
   let broadcast = JSON.parse(payload.body)
 
-  broadcastContainer.append(`
-    <div> ${broadcast.body} </div>`)
+  broadcastContainer.append(`${broadcast.message}`)
 })
