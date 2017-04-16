@@ -2,7 +2,7 @@ defmodule Trillium.Web.UserSocket do
   use Phoenix.Socket
 
   ## Channels
-  channel "room:*", Trillium.Web.RoomChannel
+  channel "game:*", Trillium.Web.RoomChannel
 
   ## Transports
   transport :websocket, Phoenix.Transports.WebSocket
