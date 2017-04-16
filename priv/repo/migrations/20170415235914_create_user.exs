@@ -5,5 +5,6 @@ defmodule Trillium.Repo.Migrations.CreateUsers do
     create table(:users) do
       add :email, :string
       add :sets, :integer
+    end
   end
 end
