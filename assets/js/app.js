@@ -20,15 +20,14 @@ import "phoenix_html"
 
 import socket from "./socket"
 
-let socket = new Socket("/socket")
 socket.connect()
 let chan = socket.channel("articles:lobby", {})
 
 let broadcastContainer = $("#broadcast")
 
 chan.on("broadcast", payload => {
-  let broadcast = :erlang.term_to_binary(payload.body)
+  let broadcast = JSON.parse(payload.body)
 
   reviewsContainer.append(`
-    <div> ${broadcast.message} </div>`)
+    <div> ${broadcast.body} </div>`)
 })
