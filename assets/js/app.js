@@ -21,13 +21,13 @@ import "phoenix_html"
 import socket from "./socket"
 
 socket.connect()
-let chan = socket.channel("articles:lobby", {})
+let chan = socket.channel("game:lobby", {})
 
 let broadcastContainer = $("#broadcast")
 
-chan.on("broadcast", payload => {
+chan.on("shout", payload => {
   let broadcast = JSON.parse(payload.body)
 
-  reviewsContainer.append(`
+  broadcastContainer.append(`
     <div> ${broadcast.body} </div>`)
 })
