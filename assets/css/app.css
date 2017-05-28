@@ -1,5 +1,15 @@
 /* This file is for your main application css. */
 
+html {
+  background-color: peachpuff;
+}
+.card {
+  height: 150px;
+}
 .card:hover {
     background-color: #f1f1f1;
+}
+.board {
+  background-color: peachpuff;
+  height: 100px;important!
 }
