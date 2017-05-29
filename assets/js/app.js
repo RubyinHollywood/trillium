@@ -26,7 +26,7 @@ let chan = socket.channel("game:lobby", {})
 let broadcastContainer = document.getElementById("broadcast")
 
 chan.on("shout", payload => {
-  let broadcast = JSON.parse(payload.body)
+  let broadcast = payload.body
 
-  broadcastContainer.append(`${broadcast.message}`)
+  broadcastContainer.append(`${broadcast}`)
 })

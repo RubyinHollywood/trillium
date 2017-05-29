@@ -55,6 +55,19 @@ socket.connect()
 
 // Now that you are connected, you can join channels with a topic:
 let channel = socket.channel("game:lobby", {})
+
+let cards = document.getElementsByClassName("card")
+
+function pushToChannel() {
+  console.log(this.id)
+  channel.push("shout", {body: this.id})
+}
+
+for (var card of cards) {
+  card.addEventListener("click", pushToChannel)
+}
+
+
 channel.join()
   .receive("ok", resp => { console.log("Joined successfully", resp) })
   .receive("error", resp => { console.log("Unable to join", resp) })
