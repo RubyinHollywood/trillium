@@ -1,48 +1,46 @@
 <div id="broadcast">
 </div>
-<div class="container board">
   <div class="row">
-    <div id="0" class="col card">
+    <div id="0" class="col card hoverable">
       <img src="/images/green_dotted_ruby.svg" />
     </div>
-    <div id="1" class="col card">
+    <div id="1" class="col card hoverable">
       <img src="/images/green_empty_ruby.svg" />
     </div>
-    <div id="2" class="col card">
+    <div id="2" class="col card hoverable">
       <img src="/images/green_full_ruby.svg" />
     </div>
   </div>
   <div class="row">
-    <div id="3" class="col card">
+    <div id="3" class="col card hoverable">
       <img src="/images/yellow_full_ruby.svg" />
     </div>
-    <div id="4" class="col card">
+    <div id="4" class="col card hoverable">
       <img src="/images/yellow_empty_ruby.svg" />
     </div>
-    <div id="5" class="col card">
+    <div id="5" class="col card hoverable">
       <img src="/images/yellow_dotted_ruby.svg" />
     </div>
   </div>
   <div class="row">
-    <div id="6" class="col card">
+    <div id="6" class="col card hoverable">
       <img src="/images/purp_dotted_ruby.svg" />
     </div>
-    <div id="7" class="col card">
+    <div id="7" class="col card hoverable">
       <img src="/images/purp_full_ruby.svg" />
     </div>
-    <div id="8" class="col card">
+    <div id="8" class="col card hoverable">
       <img src="/images/purp_empty_ruby.svg" />
     </div>
   </div>
   <div class="row">
-    <div id="9" class="col card">
+    <div id="9" class="col card hoverable">
       <img src="/images/green_dotted_ruby.svg" />
     </div>
-    <div id="10" class="col card">
+    <div id="10" class="col card hoverable">
       <img src="/images/green_empty_ruby.svg" />
     </div>
-    <div id="11" class="col card">
+    <div id="11" class="col card hoverable">
       <img src="/images/green_full_ruby.svg" />
     </div>
   </div>
-</div>

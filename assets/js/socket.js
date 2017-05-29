@@ -58,9 +58,28 @@ let channel = socket.channel("game:lobby", {})
 
 let cards = document.getElementsByClassName("card")
 
+let selectedCards = []
+
 function pushToChannel() {
-  console.log(this.id)
-  channel.push("shout", {body: this.id})
+  let cardId = this.id;
+
+  if(selectedCards.includes(cardId)){
+    console.log("this card already in the list")
+    this.classList.remove('teal');
+    var index = selectedCards.indexOf(cardId);
+    selectedCards.splice(index, 1);
+  } else if (selectedCards.length < 3) {
+    console.log("this card not already in the list")
+    this.classList.add('teal');
+    selectedCards.push(cardId)
+  } else {
+    alert("you can only click three cards")
+  }
+
+  console.log(selectedCards)
+  if (selectedCards.length == 3) {
+    channel.push("shout", {body: selectedCards})
+  }
 }
 
 for (var card of cards) {
