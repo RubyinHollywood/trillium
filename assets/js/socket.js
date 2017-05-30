@@ -76,7 +76,6 @@ function pushToChannel() {
     alert("you can only click three cards")
   }
 
-  console.log(selectedCards)
   if (selectedCards.length == 3) {
     channel.push("shout", {body: selectedCards})
   }
