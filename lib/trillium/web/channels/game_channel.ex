@@ -1,7 +1,7 @@
 defmodule Trillium.Web.GameChannel do
   use Trillium.Web, :channel
 
-  def join("game:lobby", payload, socket) do
+  def join("game", payload, socket) do
     if authorized?(payload) do
       {:ok, socket}
     else
@@ -16,9 +16,9 @@ defmodule Trillium.Web.GameChannel do
   end
 
   # It is also common to receive messages from the client and
-  # broadcast to everyone in the current topic (game:lobby).
-  def handle_in("shout", payload, socket) do
-    broadcast socket, "shout", payload
+  # broadcast to everyone in the current topic (game).
+  def handle_in("set", payload, socket) do
+    broadcast socket, "set", payload
     {:noreply, socket}
   end
 

@@ -21,11 +21,11 @@ import "phoenix_html"
 import socket from "./socket"
 
 socket.connect()
-let chan = socket.channel("game:lobby", {})
+let chan = socket.channel("game", {})
 
 let broadcastContainer = document.getElementById("broadcast")
 
-chan.on("shout", payload => {
+chan.on("set", payload => {
   let broadcast = payload.body
 
   broadcastContainer.append(`${broadcast}`)

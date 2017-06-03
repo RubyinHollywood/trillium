@@ -3,7 +3,7 @@ defmodule Trillium.Web.PageController do
 
   def index(conn, _params) do
     payload = %{message: "Pizza!!!"}
-    Trillium.Web.Endpoint.broadcast "game:lobby", "ping", %{body: Poison.encode!(payload)}
+    Trillium.Web.Endpoint.broadcast "game", "ping", %{body: Poison.encode!(payload)}
     render conn, "index.html"
   end
 end

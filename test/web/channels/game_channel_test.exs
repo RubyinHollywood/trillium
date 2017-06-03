@@ -6,7 +6,7 @@ defmodule Trillium.Web.GameChannelTest do
   setup do
     {:ok, _, socket} =
       socket("user_id", %{some: :assign})
-      |> subscribe_and_join(GameChannel, "game:lobby")
+      |> subscribe_and_join(GameChannel, "game")
 
     {:ok, socket: socket}
   end
@@ -16,9 +16,9 @@ defmodule Trillium.Web.GameChannelTest do
     assert_reply ref, :ok, %{"hello" => "there"}
   end
 
-  test "shout broadcasts to game:lobby", %{socket: socket} do
-    push socket, "shout", %{"hello" => "all"}
-    assert_broadcast "shout", %{"hello" => "all"}
+  test "set broadcasts to game", %{socket: socket} do
+    push socket, "set", %{"hello" => "all"}
+    assert_broadcast "set", %{"hello" => "all"}
   end
 
   test "broadcasts are pushed to the client", %{socket: socket} do

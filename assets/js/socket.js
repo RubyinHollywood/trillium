@@ -54,7 +54,7 @@ let socket = new Socket("/socket", {params: {token: window.userToken}})
 socket.connect()
 
 // Now that you are connected, you can join channels with a topic:
-let channel = socket.channel("game:lobby", {})
+let channel = socket.channel("game", {})
 
 let cards = document.getElementsByClassName("card")
 
@@ -77,7 +77,7 @@ function pushToChannel() {
   }
 
   if (selectedCards.length == 3) {
-    channel.push("shout", {body: selectedCards})
+    channel.push("set", {body: selectedCards})
   }
 }
 
