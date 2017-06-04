@@ -20,9 +20,7 @@ defmodule Trillium.Set do
     |> Regex.match?(card)
   end
 
-  defp all_on_the_board?(_cards) do
-    true
-  end
+  defp all_on_the_board?(_cards), do: true
 
   defp all_same_or_different?(cards) do
     cards

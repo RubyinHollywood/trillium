@@ -22,7 +22,5 @@ defmodule Trillium.Web.GameChannel do
     {:noreply, socket}
   end
 
-  defp authorized?(_payload) do
-    true
-  end
+  defp authorized?(_payload), do: true
 end
