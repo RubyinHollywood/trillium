@@ -9,15 +9,19 @@ defmodule Trillium.Web.GameChannel do
     end
   end
 
-  # It is also common to receive messages from the client and
-  # broadcast to everyone in the current topic (game).
   def handle_in("set", payload, socket) do
-    broadcast socket, "set", payload
-    {:noreply, socket}
+    if valid? payload do
+      broadcast socket, "set", payload
+    else
+      {:noreply, socket}
+    end
   end
 
-  # Add authorization logic here as required.
   defp authorized?(_payload) do
+    true
+  end
+
+  defp valid?(_payload) do
     true
   end
 end
