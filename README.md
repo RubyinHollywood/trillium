@@ -21,3 +21,10 @@ Ready to run in production? Please [check our deployment guides](http://www.phoe
   * Docs: https://hexdocs.pm/phoenix
   * Mailing list: http://groups.google.com/group/phoenix-talk
   * Source: https://github.com/phoenixframework/phoenix
+
+
+### Logic of a winning set
+The ones column:        number of items on the face of the card
+The tens column:        color (purple=0, green=1, yellow=2)
+The hundreds column:    fill  (empty=0, dotted=1, solid=2)
+The thousands column:   shape  (ruby=0, ?=1, ?=2)
