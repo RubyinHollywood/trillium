@@ -13,7 +13,9 @@ defmodule Trillium.Web.GameChannel do
   end
 
   def handle_in("set", payload, socket) do
-    if Set.valid?(payload) do
+    %{"body" => cards} = payload
+
+    if Set.valid?(cards) do
       broadcast socket, "set", payload
     end
 

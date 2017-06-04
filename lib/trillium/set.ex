@@ -1,7 +1,5 @@
 defmodule Trillium.Set do
-  def valid?(payload) do
-    %{"body" => cards} = payload
-
+  def valid?(cards) do
     three_cards?(cards)
       and all_valid_dimensions?(cards)
       and all_on_the_board?(cards)
