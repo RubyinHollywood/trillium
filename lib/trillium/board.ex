@@ -1,10 +1,10 @@
 defmodule Trillium.Board do
   @size 12
-  @dimensions ["0", "1", "2", "3"]
-  @dimensions_count Enum.count(@dimensions)
+  @dimension_values ["0", "1", "2"]
+  @dimension_count 4
 
   def cards do
-    dimensions(@dimensions_count)
+    dimensions(@dimension_count)
     |> Enum.take_random(@size)
     |> Enum.map(&List.to_string/1)
   end
@@ -12,7 +12,7 @@ defmodule Trillium.Board do
   defp dimensions(0), do: [[]]
 
   defp dimensions(dimensions_count) do
-    @dimensions
+    @dimension_values
     |> Enum.flat_map(&(another_dimension(&1, dimensions_count)))
   end
 
