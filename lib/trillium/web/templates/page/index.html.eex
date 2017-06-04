@@ -2,34 +2,34 @@
 </div>
   <div class="row">
     <div id="0110" class="col card hoverable">
-      <img src="/images/green_dotted_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0010" class="col card hoverable">
-      <img src="/images/green_empty_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0210" class="col card hoverable">
-      <img src="/images/green_full_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
   </div>
   <div class="row">
     <div id="0220" class="col card hoverable">
-      <img src="/images/yellow_full_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0020" class="col card hoverable">
-      <img src="/images/yellow_empty_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0120" class="col card hoverable">
-      <img src="/images/yellow_dotted_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
   </div>
   <div class="row">
     <div id="0100" class="col card hoverable">
-      <img src="/images/purp_dotted_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0200" class="col card hoverable">
-      <img src="/images/purp_full_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
     <div id="0000" class="col card hoverable">
-      <img src="/images/purp_empty_ruby.svg" />
+      <img src="/images/cards/0001.svg" />
     </div>
   </div>

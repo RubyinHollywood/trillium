@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#232323;stroke-width:4;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#8891BF;stroke-width:4;stroke-miterlimit:10;}
+	.st2{fill:#8891BF;stroke:#232323;stroke-width:4;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<circle class="st0" cx="345.3" cy="344.2" r="16.9"/>
+		<g>
+			<ellipse class="st1" cx="345.3" cy="344.2" rx="33.8" ry="101.2"/>
+			<circle class="st2" cx="368" cy="420.1" r="8.4"/>
+		</g>
+		<g>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -125.4253 471.1349)" class="st1" cx="345.3" cy="344.2" rx="33.7" ry="101.2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -147.8203 395.236)" class="st2" cx="268.4" cy="325.6" rx="8.5" ry="8.5"/>
+		</g>
+		<g>
+			<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -125.8292 218.772)" class="st1" cx="345.3" cy="344.2" rx="101.2" ry="33.7"/>
+			<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -89.7322 238.2793)" class="st2" cx="399.8" cy="286.6" rx="8.5" ry="8.4"/>
+		</g>
+	</g>
+</g>
+<g>
+	<g>
+		<circle class="st0" cx="161.8" cy="171.6" r="16.9"/>
+		<g>
+			<ellipse class="st1" cx="161.8" cy="171.6" rx="33.8" ry="101.2"/>
+			<circle class="st2" cx="184.4" cy="247.5" r="8.4"/>
+		</g>
+		<g>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -67.7612 225.8906)" class="st1" cx="161.7" cy="171.6" rx="33.7" ry="101.2"/>
+			<ellipse transform="matrix(0.5 -0.866 0.866 0.5 -90.1561 149.9917)" class="st2" cx="84.8" cy="153.1" rx="8.5" ry="8.5"/>
+		</g>
+		<g>
+			<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -64.1399 103.8706)" class="st1" cx="161.8" cy="171.6" rx="101.2" ry="33.7"/>
+			<ellipse transform="matrix(0.866 -0.5 0.5 0.866 -28.043 123.3779)" class="st2" cx="216.2" cy="114" rx="8.5" ry="8.4"/>
+		</g>
+	</g>
+</g>
+</svg>
