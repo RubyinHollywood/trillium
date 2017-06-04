@@ -28,5 +28,10 @@ let broadcastContainer = document.getElementById("broadcast")
 chan.on("set", payload => {
   let broadcast = payload.body
 
-  broadcastContainer.innerHTML = "you won a set. great job"
+  broadcastContainer.innerHTML = "someone won a set. great job."
+  setTimeout(clearBroadcast, 1000);
 })
+
+function clearBroadcast (){
+  broadcastContainer.innerHTML = ""
+}
