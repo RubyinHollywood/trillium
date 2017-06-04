@@ -28,5 +28,5 @@ let broadcastContainer = document.getElementById("broadcast")
 chan.on("set", payload => {
   let broadcast = payload.body
 
-  broadcastContainer.append(`${broadcast}`)
+  broadcastContainer.innerHTML = "you won a set. great job"
 })
