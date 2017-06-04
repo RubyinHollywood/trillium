@@ -21,7 +21,8 @@ defmodule Trillium.Web.GameChannel do
     true
   end
 
-  defp valid?(_payload) do
+  defp valid?(payload) do
+    %{"body" => body} = payload
     true
   end
 end
