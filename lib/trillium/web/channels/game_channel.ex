@@ -24,7 +24,10 @@ defmodule Trillium.Web.GameChannel do
   defp valid_set?(payload) do
     %{"body" => cards} = payload
 
-    three_cards?(cards) && four_dimensions?(cards) && all_same_or_different?(cards)
+    three_cards?(cards)
+      and four_dimensions?(cards)
+      and all_on_the_board?(cards)
+      and all_same_or_different?(cards)
   end
 
   defp three_cards?(cards) do
@@ -34,6 +37,10 @@ defmodule Trillium.Web.GameChannel do
   defp four_dimensions?(cards) do
     cards
     |> Enum.all?(&(String.length(&1) == 4))
+  end
+
+  defp all_on_the_board?(_cards) do
+    true
   end
 
   defp all_same_or_different?(cards) do
