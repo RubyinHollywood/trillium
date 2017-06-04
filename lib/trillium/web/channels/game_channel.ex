@@ -1,13 +1,12 @@
 defmodule Trillium.Web.GameChannel do
   use Trillium.Web, :channel
 
+  alias Trillium.Board
   alias Trillium.Set
-
-  @placeholder_cards ["example", "cards", "here"]
 
   def join("game", payload, socket) do
     if authorized?(payload) do
-      {:ok, %{cards: @placeholder_cards}, socket}
+      {:ok, %{board: Board.cards}, socket}
     else
       {:error, %{reason: "unauthorized"}}
     end
