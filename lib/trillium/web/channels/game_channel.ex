@@ -25,7 +25,7 @@ defmodule Trillium.Web.GameChannel do
     %{"body" => cards} = payload
 
     three_cards?(cards)
-      and valid_dimensions?(cards)
+      and all_valid_dimensions?(cards)
       and all_on_the_board?(cards)
       and all_same_or_different?(cards)
   end
@@ -34,14 +34,14 @@ defmodule Trillium.Web.GameChannel do
     Enum.count(cards) == 3
   end
 
-  defp valid_dimensions?(cards) do
+  defp all_valid_dimensions?(cards) do
     cards
-    |> Enum.all?(&valid_dimension?/1)
+    |> Enum.all?(&valid_dimensions?/1)
   end
 
-  defp valid_dimension?(dimension) do
+  defp valid_dimensions?(card) do
     ~r/[0-3]{4}/
-    |> Regex.match?(dimension)
+    |> Regex.match?(card)
   end
 
   defp all_on_the_board?(_cards) do
