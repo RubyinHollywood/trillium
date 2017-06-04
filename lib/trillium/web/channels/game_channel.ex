@@ -10,7 +10,7 @@ defmodule Trillium.Web.GameChannel do
   end
 
   def handle_in("set", payload, socket) do
-    if valid? payload do
+    if valid_set? payload do
       broadcast socket, "set", payload
     end
 
@@ -21,20 +21,34 @@ defmodule Trillium.Web.GameChannel do
     true
   end
 
-  defp valid?(payload) do
-    %{"body" => body} = payload
+  defp valid_set?(payload) do
+    %{"body" => cards} = payload
 
-    body
+    three_cards?(cards) && four_dimensions?(cards) && all_same_or_different?(cards)
+  end
+
+  defp three_cards?(cards) do
+    Enum.count(cards) == 3
+  end
+
+  defp four_dimensions?(cards) do
+    cards
+    |> Enum.all?(&(String.length(&1) == 4))
+  end
+
+  defp all_same_or_different?(cards) do
+    cards
     |> Enum.map(&(String.codepoints(&1)))
     |> Enum.zip
-    |> Enum.all?(&all_same_or_different?/1)
+    |> Enum.all?(&same_or_different?/1)
   end
 
-  defp all_same_or_different?(dimensions) do
-    Enum.member?([1, 3], count_different_dimensions(dimensions))
+  defp same_or_different?(dimensions) do
+    [1, tuple_size(dimensions)]
+    |> Enum.member?(count_unique_dimensions(dimensions))
   end
 
-  defp count_different_dimensions(dimensions) do
+  defp count_unique_dimensions(dimensions) do
     dimensions
     |> Tuple.to_list
     |> Enum.uniq
