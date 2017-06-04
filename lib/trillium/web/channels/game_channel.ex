@@ -23,6 +23,21 @@ defmodule Trillium.Web.GameChannel do
 
   defp valid?(payload) do
     %{"body" => body} = payload
-    true
+
+    body
+    |> Enum.map(&(String.codepoints(&1)))
+    |> Enum.zip
+    |> Enum.all?(&all_same_or_different?/1)
+  end
+
+  defp all_same_or_different?(dimensions) do
+    Enum.member?([1, 3], count_different_dimensions(dimensions))
+  end
+
+  defp count_different_dimensions(dimensions) do
+    dimensions
+    |> Tuple.to_list
+    |> Enum.uniq
+    |> Enum.count
   end
 end
