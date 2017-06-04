@@ -12,9 +12,9 @@ defmodule Trillium.Web.GameChannel do
   def handle_in("set", payload, socket) do
     if valid? payload do
       broadcast socket, "set", payload
-    else
-      {:noreply, socket}
     end
+
+    {:noreply, socket}
   end
 
   defp authorized?(_payload) do
