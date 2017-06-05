@@ -16,7 +16,7 @@ defmodule Trillium.Set do
   end
 
   defp valid_dimensions?(card) do
-    ~r/[0-3]{4}/
+    ~r/[0-2]{4}/
     |> Regex.match?(card)
   end
 
