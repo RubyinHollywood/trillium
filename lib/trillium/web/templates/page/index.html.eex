@@ -1,35 +1,35 @@
 <div id="broadcast">
 </div>
   <div class="row">
-    <div id="0110" class="col card hoverable">
+    <div id="0110" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
-    <div id="0010" class="col card hoverable">
+    <div id="0010" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
-    <div id="0210" class="col card hoverable">
-      <img src="/images/cards/0001.svg" />
-    </div>
-  </div>
-  <div class="row">
-    <div id="0220" class="col card hoverable">
-      <img src="/images/cards/0001.svg" />
-    </div>
-    <div id="0020" class="col card hoverable">
-      <img src="/images/cards/0001.svg" />
-    </div>
-    <div id="0120" class="col card hoverable">
+    <div id="0210" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
   </div>
   <div class="row">
-    <div id="0100" class="col card hoverable">
+    <div id="0220" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
-    <div id="0200" class="col card hoverable">
+    <div id="0020" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
-    <div id="0000" class="col card hoverable">
+    <div id="0120" class="col s4 card hoverable">
+      <img src="/images/cards/0001.svg" />
+    </div>
+  </div>
+  <div class="row">
+    <div id="0100" class="col s4 card hoverable">
+      <img src="/images/cards/0001.svg" />
+    </div>
+    <div id="0200" class="col s4 card hoverable">
+      <img src="/images/cards/0001.svg" />
+    </div>
+    <div id="0000" class="col s4 card hoverable">
       <img src="/images/cards/0001.svg" />
     </div>
   </div>
